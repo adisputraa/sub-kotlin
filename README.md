@@ -22,3 +22,22 @@ git clone https://github.com/adisputraa/sub-kotlin.git
 ```
 4. Buka Intellij IDEA
 5. Open folder yang sudah dibuat tadi melalui Intellij IDEA
+
+**Cek**<br>
+Untuk memerika hasil pengerjaan, buka terminal pada Intellij IDEA, lalu masukkan perintah berikut:
+- Soal wajib
+  ```
+  gradle test --tests ExamTestMain -q
+  ```
+  atau
+  ```
+  ./gradlew test --tests ExamTestMain -q
+  ```
+- Soal opsional
+  ```
+  gradle test --tests ExamTestOptional -q
+  ```
+  atau
+  ```
+  ./gradlew test --tests ExamTestOptional -q
+  ```
