@@ -1,9 +1,24 @@
 # Proyek Submission MPK 
 
-**Aturan mengerjakan submission**<br>
-Agar tugas submission dapat diperiksa dan diterima dengan baik, sebaiknya hindari beberapa hal berikut:
+**Hasil Review**<br>
+5 soal wajib dan 3 soal opsional sukses dijalankan.<br>
+Masih ada 2 soal opsional yang belum terpenuhi.<br>
 
-- Mengubah kode yang berada di dalam fungsi main()
-- Mengubah (kecuali untuk mengerjakan TODO) atau menghapus kode yang sudah ada
-- Membuat fungsi baru yang bukan merupakan tugas latihan
-- Mengubah struktur project (menghapus, mengubah, atau memindahkan package)
+- Latihan opsional 3 belum memenuhi skenario pengujian berikut:
+  - Jika argumennya adalah dicoding0101 dan 19, fungsi manipulateString() seharusnya mengembalikkan nilai dicoding1919.
+- Latihan Opsional 5 belum memenuhi skenario pengujian berikut:
+  - concatString() tidak boleh mengandung karakter {.
+
+
+**Build**<br>
+1. Folder lokal
+Siapkan folder lokal di dalam laptop anda untuk menampung project ini
+2. Git bash
+Klik kanan pada folder tadi, kemudian pilih git bash here
+3. Clone Project
+Masukkan perintah di bawah ini ke dalam git bash
+```
+git clone https://github.com/adisputraa/sub-kotlin.git
+```
+4. Buka Intellij IDEA
+5. Open folder yang sudah dibuat tadi melalui Intellij IDEA
